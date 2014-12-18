@@ -236,7 +236,7 @@ public class ImportExportDialogFragment extends AnalyticsDialogFragment
                     dialog.dismiss();
             }
         };
-        return new AlertDialog.Builder(getActivity())
+        return new AlertDialog.Builder(getActivity(), R.style.ContactsAlertDialogTheme)
                 .setTitle(contactsAreAvailable
                         ? R.string.dialog_import_export
                         : R.string.dialog_import)
